@@ -1,2 +1,3 @@
 # Py-basics
-Hey all. In this repository, I'll be covering the basics of python for those who already know coading algorithm and want to shift to Python.
+
+Hey all. I'll be covering the basics of python for those who already know coading algorithms & logics and are willing to shift to Python.
