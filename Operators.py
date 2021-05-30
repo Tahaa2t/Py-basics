@@ -45,9 +45,9 @@ W=float(W)
 
 
 BMI = W/(H**2)
-print("Your BMI is: ", int(BMI))    #chopping
-print("Your BMI is: ", round(BMI))  #rounding
-print("Your BMI is: ", round(BMI, 2))  #rounding and specify decimal places
+print("Your BMI is: ", int(BMI))        #chopping
+print("Your BMI is: ", round(BMI))      #rounding
+print("Your BMI is: ", round(BMI, 2))   #rounding and specify decimal places
 #---------------------------------------------------------
 
 #------------------adding digits of 2 digit number----------------------------------------------------------

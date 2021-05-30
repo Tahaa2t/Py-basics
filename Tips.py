@@ -27,3 +27,8 @@ print("number is: ", round(y, 2))  #rounding and specify decimal places, output 
 #Type casting
 print(70 + float("100.5"))  #outout = 170.5, bcz it converts string "100.5" to float and adds to 70
 print(str("70") + str("100.5"))  #output = 70100.5, bcz 2 'strings' are being concatenated
+
+#lower/upper casing
+name = input("Enter name: ")    #Taha
+name = name.lower()             #taha
+name = name.upper()             #TAHA
