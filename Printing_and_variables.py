@@ -17,6 +17,10 @@ print("Your band name could be:",country,pet)               #to print varibles i
 print(f"Your band name could be: {country} {pet}")          #another way of writing,  use f before quotation marks
                                                             #and write variables in {}
 
+print("Your band name could be: {} {}".format(country,pet)) #another way of writing,  place {} in string, use format()
+                                                            #method and place desired variables as arguments in
+                                                            #format()
+
 
 #-------------------------------------TIP----------------------------------------------
 print("Your band name could be:",country,pet), #then automatically spaces are added
