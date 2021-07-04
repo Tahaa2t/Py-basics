@@ -32,3 +32,8 @@ print(str("70") + str("100.5"))  #output = 70100.5, bcz 2 'strings' are being co
 name = input("Enter name: ")    #Taha
 name = name.lower()             #taha
 name = name.upper()             #TAHA
+
+
+#imagine you don't know how many elements are in the list and you have to get last one...
+num1 = [1, 2, 3, 4]
+print(num1[-1])          #this will help
