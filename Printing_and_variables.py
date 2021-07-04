@@ -21,6 +21,9 @@ print("Your band name could be: {} {}".format(country,pet)) #another way of writ
                                                             #method and place desired variables as arguments in
                                                             #format()
 
+print("Your band name could be:",country,pet,end=" ")       #Printing without going into a new line using "end" keyword
+                                                            #and giving " "(space) as a separator
+    
 
 #-------------------------------------TIP----------------------------------------------
 print("Your band name could be:",country,pet), #then automatically spaces are added
