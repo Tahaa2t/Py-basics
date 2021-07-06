@@ -37,3 +37,9 @@ name = name.upper()             #TAHA
 #imagine you don't know how many elements are in the list and you have to get last one...
 num1 = [1, 2, 3, 4]
 print(num1[-1])          #this will help
+
+
+
+heights = input("Enter heights divided by space: ").split()    #simple Way to create a list
+avg_ht = sum(int(heights))/len(heights)         #simple way to find average
+Max_ht = max(heights)                           #simple way to find Maximum height
