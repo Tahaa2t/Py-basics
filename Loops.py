@@ -10,6 +10,12 @@ for i in range(0,10,2):   #loop of 10/2 iterations. i value updates by adding 2 
     x+=10
 
 
+#-----------------------While Loop----------------------------------------
+i=int(10)
+while i>2:  #almost same as C++
+    i -= 1
+    print(i)
+
 #-----------------Add even numbers between 1-100-------------------------------
 total=0
 for i in range(2,101,2):
