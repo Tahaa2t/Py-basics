@@ -43,3 +43,9 @@ print(num1[-1])          #this will help
 heights = input("Enter heights divided by space: ").split()    #simple Way to create a list
 avg_ht = sum(int(heights))/len(heights)         #simple way to find average
 Max_ht = max(heights)                           #simple way to find Maximum height
+
+
+import math
+num1=float(4.2)
+math.ceil(num1) #output = 5
+math.floor(num1) #output = 4
