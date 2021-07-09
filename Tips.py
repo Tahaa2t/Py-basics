@@ -49,3 +49,6 @@ import math
 num1=float(4.2)
 math.ceil(num1) #output = 5
 math.floor(num1) #output = 4
+
+
+name = input("Enter name").title()      #sentence case (first alphabet of every word will be uppercase, rest is lowercase)
