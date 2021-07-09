@@ -45,3 +45,48 @@ cover = int(input("total coverage by 1 can: "))
 
 area_calc(height,width,cover)
 
+
+
+#return value from function
+
+def func1():    #definition
+    x=10+5
+    return x
+
+calc = func1()  #calling
+print(calc)
+#----------Full name--------------
+
+def func2(f_name,l_name):
+    full_name = f_name.title()  #title() converts any sentence into "Sentence Case"
+    full_name+= " "
+    full_name+= l_name.title()
+    return full_name
+
+f_name = "TaHA"
+l_name = "tAnNVEEr"
+name = func2(f_name,l_name)
+print(f"full name is: {name}")
+
+#------------another way---------------
+
+def func2(f_name,l_name):
+    
+    return f"{f_name.title()} {l_name.title()}"
+
+f_name = "TaHA"
+l_name = "tAnNVEEr"
+name = func2(f_name,l_name)
+print(f"full name is: {name}")
+
+
+#---------------------DocString-----------------------
+
+def func3():
+    """ This function           
+    returns my name """     #This is a docstring, used to define what this function do
+    return "Taha Tanveer"
+
+name = func3()              #hover over func3(), it will show docstring as discription of function
+
+
