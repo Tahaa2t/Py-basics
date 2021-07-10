@@ -52,3 +52,10 @@ math.floor(num1) #output = 4
 
 
 name = input("Enter name").title()      #sentence case (first alphabet of every word will be uppercase, rest is lowercase)
+
+
+#use a global variable in function without passing as argument
+num2 = 3
+def adder():
+    global num2
+    num2+=1
