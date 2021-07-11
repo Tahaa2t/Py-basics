@@ -59,3 +59,30 @@ num2 = 3
 def adder():
     global num2
     num2+=1
+
+
+#find max min in list of dictionaries
+
+data = [
+    {
+        'name': 'Instagram',
+        'follower_count': 346,
+        'description': 'Social media platform',
+        'country': 'United States'
+    },
+    {
+        'name': 'Cristiano Ronaldo',
+        'follower_count': 215,
+        'description': 'Footballer',
+        'country': 'Portugal'
+    },
+    {
+        'name': 'Ariana Grande',
+        'follower_count': 183,
+        'description': 'Musician and actress',
+        'country': 'United States'
+    }]  #we need to find max follower count
+
+m = [x['follower_count'] for x in data]
+max(m)
+min(m)
