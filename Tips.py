@@ -86,3 +86,6 @@ data = [
 m = [x['follower_count'] for x in data]
 max(m)
 min(m)
+
+
+my_tuple = (2,3,4)    #it's like a list but we can't change values, called tuple
